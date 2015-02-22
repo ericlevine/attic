@@ -1,0 +1,6 @@
+{
+  "InputDir": "templates",
+  "OutputDir": "static",
+  "Layout": "layout.html",
+  "Pages": ["index.html", "contact.html", "resume.html"]
+}

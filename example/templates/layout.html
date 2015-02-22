@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="nav">
+      <ul>
+        <li{{if .IsActive "index.html"}} class="active"{{end}}>
+          <a href="index.html">Home</a>
+        </li>
+        <li{{if .IsActive "contact.html"}} class="active"{{end}}>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li{{if .IsActive "resume.html"}} class="active"{{end}}>
+          <a href="resume.html">Resume</a>
+        </li>
+      </ul>
+    </div>
+    <div id="content">{{template "content" .}}</div>
+  </body>
+</html>
